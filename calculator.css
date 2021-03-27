@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background: rgb(250, 213, 6);
+    background-size: cover;
+    color: #532827;
+    font-family: poppins;
+    overflow: hidden;
+}
+
+#container {
+    width: 400px;
+    margin: 10px auto 0;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px black;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #ddd;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 25px 0;
+}
+
+form input,
+form select {
+    padding: 8px;
+    margin: 10px 0;
+    font-family: poppins;
+}
+
+form input[type="text"] {
+    width: 90px;
+}
+
+button {
+    background: #6c2726;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    width: 100%;
+    border-bottom: solid 4px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #4c2827;
+    border-bottom-color: #111;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#totalTip {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#totalTip::before {
+    content: "tip amount";
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+#totalTip sup {
+    font-size: 24px;
+    top: -18px;
+}
+
+#totalTip small {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
